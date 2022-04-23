@@ -1,0 +1,12 @@
+{
+  "extends": ["next/core-web-vitals", "airbnb", "airbnb-typescript", "prettier"],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-props-no-spreading": "off"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "project": ["tsconfig.json"],
+    "sourceType": "module"
+  }
+}
